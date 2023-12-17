@@ -12,8 +12,23 @@
     height: 5rem;
     background-color: rgb(241, 225, 225);
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.title{
     justify-content: center;
     align-items: center;
+    color: red;
+    font-size: 1rem;
+    width: 80%;
+    
+}
+.logo{
+    height: 5rem;
+    width: 5rem;
+    background-image: url(logo.png);
+    background-size: cover;
 }
 .head2{
     display: flex;
@@ -68,6 +83,10 @@ footer{
     align-items: center;
     font-size: 0.75rem;
     width: 100%;
+}
+.bag1{
+    background-image: url(saida.jpg);
+    background-size: cover;
 }
 .bag2{
 
